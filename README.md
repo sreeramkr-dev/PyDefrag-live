@@ -21,4 +21,4 @@ run code.py in terminal
 ```bash
 python3 code.py
 ```
-The utility will ask for the sudo password the tools needs it for accessing system files and modifying fragmented files
+The utility will ask for the sudo password the tool needs it for accessing system files and modifying fragmented files
