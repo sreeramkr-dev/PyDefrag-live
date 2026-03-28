@@ -11,9 +11,14 @@ An Interactive python script that uses the `e4defrag ` utility as backend
 * **Filesystem** : Only EXT4 filesystem supported
 
 
-## **Dependencies**
+### **Dependencies**
 * `e2fsprongs` 
 * `python 3.10 ` 
 ## Usage
 Download the file **`code.py`**
+run code.py in terminal
 
+```bash
+python3 code.py
+```
+The utility will ask for the sudo password the tools needs it for accessing system files and modifying fragmented files
