@@ -1,4 +1,5 @@
-# Defragelive
+# PyDefrage-live 
+**Version 1.0.0**
 An Interactive python script that uses the `e4defrag ` utility as backend
 
 
@@ -12,8 +13,11 @@ An Interactive python script that uses the `e4defrag ` utility as backend
 
 
 ### **Dependencies**
-* `e2fsprongs` 
-* `python 3.10 ` 
+* `e2fsprongs`
+* `python 3.10 >` 
+```bash
+sudo apt update && sudo apt install e2fsprogs
+```
 ## Usage
 Download the file **`code.py`**
 run code.py in terminal
