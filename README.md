@@ -11,8 +11,9 @@ An Interactive python script that uses the `e4defrag ` utility as backend
 * **Filesystem** : Only EXT4 filesystem supported
 
 
-* **Dependencies** : `e2fsprongs`
+## **Dependencies**
+* `e2fsprongs` 
+* `python 3.10 ` 
 ## Usage
-clone or download code.py
-`git clone `
+Download the file **`code.py`**
 
