@@ -34,7 +34,12 @@ run code.py in terminal
 python3 code.py
 ```
 The utility will ask for the sudo password,the tool needs it for accessing system files and modifying fragmented files
-## Release notes
-You need to type proper file paths eg: `~` will not work you need to type `/home/<username>` dont analyze the home directory
+## v.1.0.0 Release notes
+### Know issues
+* **Path Exapansion** : The utility currently requires full path as input (eg;`/home/<username>`)
+* Shell expansion using `~` is currently not supported
+
+
+**Usage Note** : Please provide full paths for accurate analysis
 
 This issue will be fixed in the future versions
