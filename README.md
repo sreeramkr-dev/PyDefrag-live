@@ -33,7 +33,7 @@ run code.py in terminal
 ```bash
 python3 code.py
 ```
-The utility will ask for the sudo password the tool needs it for accessing system files and modifying fragmented files
+The utility will ask for the sudo password,the tool needs it for accessing system files and modifying fragmented files
 ## Release notes
 You need to type proper file paths eg: `~` will not work you need to type `/home/<username>` dont analyze the home directory
 
