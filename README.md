@@ -46,4 +46,10 @@ The utility will ask for the sudo password,the tool needs it for accessing syste
 
 **Usage Note**: Please provide full paths for accurate analysis
 
-This issue will be fixed in the future versions
+## Project Status
+### Status: Completed Archived
+This utility was developed as a hobbyist project,while it is fully functional for its indented purpose it is not actively maintained
+* No new features are planned
+* Bug report may not get a response
+* Feel free to fork the respository if you wish to continue the devolopment
+
