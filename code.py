@@ -1,7 +1,7 @@
 import subprocess
 print("The input should not been in qoutes")
 print("Note that only ext4 filesystem is supported ")
-target=input("Enter the target :")
+target=input("Enter the target : ")
 check_fragementation=['sudo','e4defrag','-c',target]
 result=subprocess.run(check_fragementation,capture_output=True,text=True)
 if result.stderr:
