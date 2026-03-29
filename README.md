@@ -2,7 +2,7 @@
 **Version 1.0.0**
 
 
-An Interactive python script that uses the `e4defrag ` utility as backend
+An Interactive python based wrapper around the `e4defrag` utility
 
 
 ## ⚠BACKUP BEFORE RUNNING⚠
