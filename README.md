@@ -1,5 +1,7 @@
 # PyDefrage-live 
 **Version 1.0.0**
+
+
 An Interactive python script that uses the `e4defrag ` utility as backend
 
 
@@ -19,10 +21,20 @@ An Interactive python script that uses the `e4defrag ` utility as backend
 sudo apt update && sudo apt install e2fsprogs
 ```
 ## Usage
-Download the file **`code.py`**
+Download the utility
+```bash
+wget https://raw.githubusercontent.com/sreeramkr-dev/PyDefrag-live/main/code.py
+```
+Alternatively you can download code.py directly
+
+
 run code.py in terminal
 
 ```bash
 python3 code.py
 ```
 The utility will ask for the sudo password the tool needs it for accessing system files and modifying fragmented files
+## Release notes
+You need to type proper file paths eg: `~` will not work you need to type `/home/<username>` dont analyze the home directory
+
+This issue will be fixed in the future versions
