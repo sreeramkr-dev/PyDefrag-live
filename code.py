@@ -8,12 +8,7 @@ if result.stderr:
     print(f"Error:{result.stderr.strip()}")
 else:
    print(result.stdout)
-while True:
-    try:
-        start_defrage=input("Do you want to start defragementaion [Y/n] : ")
-        break
-    except ValueError:
-        print("choose correct options")
+start_defrage=input("Do you want to start defragementaion [Y/n] : ")
 if start_defrage in 'Yy':
     do_defragementation=['sudo','e4defrag',target]
     subprocess.run(do_defragementation)
